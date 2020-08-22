@@ -1,4 +1,4 @@
-conllner:
+kagglener:
   model_type: BERT
   config_name: bert-base-uncased
   dropout_prob: 0.2
@@ -14,7 +14,7 @@ conllner:
   - ner_kaggle_dev.tsv
   - ner_kaggle_test.tsv
 
-conllpos:
+kagglepos:
     model_type: BERT
     config_name: bert-base-uncased
     dropout_prob: 0.2
