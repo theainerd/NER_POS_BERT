@@ -1,8 +1,8 @@
-transform1:
+sample_transform1:
   transform_func: kaggle_ner_pos_to_tsv
   read_file_names:
     - kaggle_train.csv
     - kaggle_dev.csv
     - kaggle_test.csv
   read_dir: raw_data
-  save_dir: ../../data
+  save_dir: data
